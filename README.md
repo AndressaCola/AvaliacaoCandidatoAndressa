@@ -21,7 +21,7 @@ Após a criação das tabelas, você deve criar as procedures necessárias para 
 > **Observações:**
 > - Para seus testes, você pode criar um banco local na sua máquina. Não há necessidade de consumir uma base de dados prévia, os dados poderão ser inseridos manualmente;
 > - Você pode criar mais colunas conforme ver necessidade;
-> - Para incluir o banco no projeto, você poderá adicionar os scripts de criação das tabelas e das procedures na pasta Scripts_SQL. Não há necessidade de incluir sua massa de dados.
+> - Para incluir o banco no projeto, você poderá adicionar os scripts de criação das tabelas e das procedures em uma pasta denominada "Scripts_SQL". Não há necessidade de incluir sua massa de dados.
 
 
 ### Back-End/C#
