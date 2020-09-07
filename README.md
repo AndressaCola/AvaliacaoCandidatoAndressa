@@ -1,52 +1,49 @@
-Avaliacao de Candidato
+# Teste na empresa Mega Laudo
 ==============================
+Primeiramente gostaria de agradecer a oportunidade! É a primeira vez que crio um projeto desse tipo. O desafio é simples mas tem suas complexidades para um desenvolvedor JR.
 
-Olá Andressa.
+Optei pelo MySQL e PHP por ter mais familiaridade com a linguagem, mas não consegui fazer as interações com o tempo exigido pois tive um problema em meu notebook.
 
-Essa avaliação prática consiste em 3 etapas para avaliarmos seu conhecimento em C#, SQL e Front-End(HTML5, CSS e JavaScript)
+O que consegui fazer foi criar as tabelas e criar uma interface para o sistema.
 
-Este repositório será exclusivo para o sua avaliação. Pode organizá-lo da forma que achar necessário.
+## Ferramentas
+---------------------------
+**XAMPP** -> https://www.apachefriends.org/pt_br/index.html
+*Apache* - Servidor Web
+*PHPMySQL* - Banco de Dados
 
-O teste
---------
-### Banco de dados/SQL
+**Vidual Studio Code**
+*IDE* - Ambiente de desenvolvimento
 
-A primeira etapa será a criação de um **banco de dados**. Para seu projeto, você deve:
+### Banco de Dados/MySQL
 
-- Criar uma tabela denominada "Veiculo" com as colunas "Placa", "Marca", "Modelo", "AnoModelo" e "AnoFabricacao";
-- Criar uma tabela denominada "Cliente" com as colunas "Nome", "CPF", "Telefone" e "Endereco";
-- Criar uma tabela denominada "Servico" com as colunas "Nome", "Descicao", "Cliente", "Veiculo" e "Valor";
-
-Após a criação das tabelas, você deve criar as procedures necessárias para realizar operações CRUD nessas tabelas de forma que a aplicação fique funcional.
-> **Observações:**
-> - Para seus testes, você pode criar um banco local na sua máquina. Não há necessidade de consumir uma base de dados prévia, os dados poderão ser inseridos manualmente;
-> - Você pode criar mais colunas conforme ver necessidade;
-> - Para incluir o banco no projeto, você poderá adicionar os scripts de criação das tabelas e das procedures em uma pasta denominada "Scripts_SQL". Não há necessidade de incluir sua massa de dados.
-
-
-### Back-End/C#
-
-A segunda etapa será o desenvolvimento **backend/C#**. Para seu projeto, você deve:
-
-- Desenvolver uma 'mini api' que seja responsável por gerenciar as operações CRUD criadas no seu banco de dados, bem como seus retornos.
+**Tarefas**
+- [x] Criar Banco de Dados "BD_MegaLaudo";
+- [x] Criar uma tabela denominada "Veiculo" com as colunas **"ID_Veiculo"**, "Placa", "Marca", "Modelo", "AnoModelo" e "AnoFabricacao";
+- [x] Criar uma tabela denominada "Cliente" com as colunas **"ID_Cliente"**, "Nome", "CPF", "Telefone" e "Endereco";
+- [x] Criar uma tabela denominada "Servico" com as colunas **"ID_Servico"**,**"ID_Veiculo"**, **"ID_Cliente"**, **"Data_servico"**, "Nome", "Descicao", "Cliente", "Veiculo" e "Valor"; 
+- [] Adicionar os scripts de criação das tabelas e das procedures em uma pasta denominada "Scripts_SQL";
 
 > **Observações:**
-> - Sugiro a utilização de objetos para cada um dos tipos de dados.
+> - Criei algumas colunas extras que estão em negrito
 
-### Front-End
+### Back-End/PHP
 
-Para a terceira etapa da avaliação, você deverá desenvolver uma SPA (Single Page Application) e nela deve ser possível:
+**Tarefa**
+- [] Desenvolver uma 'mini api' que seja responsável por gerenciar as operações CRUD criadas no seu banco de dados, bem como seus retornos;
+- *Sugiro a utilização de objetos para cada um dos tipos de dados.*
 
-- Ver a lista de todos os servicos cadastrados
-- Adicionar um novo serviço
-- Listar os serviços cadastrados para um veículo
-- Listar os serviços cadastrados para um cliente
+> **Observações:**
+> -Não deu para finalizar
 
-> **Obs:**
-> - A página deve ser responsiva.
+### Front-End/HTML/CSS/JS/BOOSTRATP
 
-### Observações importantes:
+**Tarefa**
+- [] Ver a lista de todos os serviços cadastrados;
+- [x] Adicionar um novo serviço;
+- [] Listar os serviços cadastrados para um veículo;
+- [] Listar os serviços cadastrados para um cliente;
+- [x] Página Responsiva;
 
-- Você pode usar frameworks, tanto para o front-end, quanto para o back-end, mas um código limpo será melhor avaliado.
-- Será considerado ponto positivo no teste a utilização de JS puro, orientação a objetos, design patterns e rotinas para testes.
-- Será considerado a velocidade e a usabilidade do projeto. Uma interface intuitiva será melhor avaliada.
+> **Observações:**
+> -Não Finalizei tudo
